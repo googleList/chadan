@@ -383,7 +383,33 @@ display:block !important;
   top: -100px;
   width: 200px !important;display: none !important; }
 #weix:hover .gtjm{display: block !important; }
-#weix img,#tgid img,#qq img{display: block;width: 80%; margin: 6px auto; }
+#weix img,#tgid img,#qq img,#ws img{display: block;width: 80%; margin: 6px auto; }
+
+
+#ws{ 
+  display: inline-block;
+  border:1px solid #28a745;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed; cursor: pointer;
+  bottom: 290px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  z-index: 1000;
+}
+#wsimg{ 
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  position: absolute;
+  right: 115%; 
+  top: -100px;
+  width: 200px !important;display: none !important; 
+}
+#ws:hover #wsimg{display: block !important; }
 #tgid{
   display: inline-block;background: #fff;
   border:1px solid #79ccde;
@@ -2768,7 +2794,7 @@ display:block !important;
 .doc_fact_item {
   text-align: center;
 }
-..doc_fact_item .counters{
+.doc_fact_item .counter {
   color: #fff;
   font-size: 50px;
   line-height: 60px;
@@ -2856,7 +2882,7 @@ display:block !important;
   -webkit-filter: drop-shadow(0px 20px 40px #086174);
   filter: drop-shadow(0px 20px 40px #086174);
 }
-.funfact-boxes .funfact-box .counters {
+.funfact-boxes .funfact-box .counter {
   font-size: 34px;
   font-weight: 500;
   color: #10b3d6;
