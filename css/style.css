@@ -2768,7 +2768,7 @@ display:block !important;
 .doc_fact_item {
   text-align: center;
 }
-.doc_fact_item . {
+..doc_fact_item .counters{
   color: #fff;
   font-size: 50px;
   line-height: 60px;
